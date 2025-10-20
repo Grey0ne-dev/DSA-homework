@@ -4,7 +4,7 @@ template<typename T>
 class CircularDeque {
     T *_data{};
     int _size = 0;
-    int _capacity = 0;
+    int _capacity = 1;
     int head = 0;
     int rear = 0;
 
